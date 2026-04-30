@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|c:\\users\\lekien\\onedrive - sp\u0161eag v \u00FA\u017Elabin\u011B\\upg\\i2c\\arduino\\arduino\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|solutionrelative:arduino\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|c:\\users\\lekien\\onedrive - sp\u0161eag v \u00FA\u017Elabin\u011B\\upg\\i2c\\arduino\\arduino\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|solutionrelative:arduino\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Arduino\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml",
+              "RelativeToolTip": "Arduino\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-27T05:53:56.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Arduino\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Arduino\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwHUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:38:37.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
