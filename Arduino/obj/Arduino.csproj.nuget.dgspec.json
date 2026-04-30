@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lekien\\OneDrive - SPŠEaG V Úžlabině\\UPG\\I2C\\Arduino\\Arduino\\Arduino.csproj": {}
+    "C:\\Users\\Kiwi\\Source\\Repos\\Arduino-Academy\\Arduino\\Arduino.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lekien\\OneDrive - SPŠEaG V Úžlabině\\UPG\\I2C\\Arduino\\Arduino\\Arduino.csproj": {
+    "C:\\Users\\Kiwi\\Source\\Repos\\Arduino-Academy\\Arduino\\Arduino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lekien\\OneDrive - SPŠEaG V Úžlabině\\UPG\\I2C\\Arduino\\Arduino\\Arduino.csproj",
+        "projectUniqueName": "C:\\Users\\Kiwi\\Source\\Repos\\Arduino-Academy\\Arduino\\Arduino.csproj",
         "projectName": "Arduino",
-        "projectPath": "C:\\Users\\lekien\\OneDrive - SPŠEaG V Úžlabině\\UPG\\I2C\\Arduino\\Arduino\\Arduino.csproj",
-        "packagesPath": "C:\\Users\\lekien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lekien\\OneDrive - SPŠEaG V Úžlabině\\UPG\\I2C\\Arduino\\Arduino\\obj\\",
+        "projectPath": "C:\\Users\\Kiwi\\Source\\Repos\\Arduino-Academy\\Arduino\\Arduino.csproj",
+        "packagesPath": "C:\\Users\\Kiwi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kiwi\\Source\\Repos\\Arduino-Academy\\Arduino\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lekien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kiwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

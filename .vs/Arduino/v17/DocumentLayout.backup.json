@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\",
+  "WorkspaceRootPath": "C:\\Users\\Kiwi\\source\\repos\\Arduino-Academy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|c:\\users\\lekien\\onedrive - sp\u0161eag v \u00FA\u017Elabin\u011B\\upg\\i2c\\arduino\\arduino\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|c:\\users\\kiwi\\source\\repos\\arduino-academy\\arduino\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|solutionrelative:arduino\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|c:\\users\\kiwi\\source\\repos\\arduino-academy\\arduino\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|solutionrelative:arduino\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|c:\\users\\lekien\\onedrive - sp\u0161eag v \u00FA\u017Elabin\u011B\\upg\\i2c\\arduino\\arduino\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|solutionrelative:arduino\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|c:\\users\\kiwi\\source\\repos\\arduino-academy\\arduino\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09336501-0E3F-4D66-822C-BA2C21A75BEA}|Arduino\\Arduino.csproj|solutionrelative:arduino\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Arduino\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml",
-              "RelativeToolTip": "Arduino\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T05:53:56.978Z",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kiwi\\source\\repos\\Arduino-Academy\\Arduino\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Arduino\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Kiwi\\source\\repos\\Arduino-Academy\\Arduino\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Arduino\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAiwI0AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T16:33:46.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Kiwi\\source\\repos\\Arduino-Academy\\Arduino\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Arduino\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Kiwi\\source\\repos\\Arduino-Academy\\Arduino\\AssemblyInfo.cs",
+              "RelativeToolTip": "Arduino\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T16:04:51.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Arduino\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\lekien\\OneDrive - SP\u0160EaG V \u00DA\u017Elabin\u011B\\UPG\\I2C\\Arduino\\Arduino\\MainWindow.xaml.cs \u2B24",
-              "RelativeToolTip": "Arduino\\MainWindow.xaml.cs \u2B24",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAIwHkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:38:37.929Z",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Kiwi\\source\\repos\\Arduino-Academy\\Arduino\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Arduino\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Kiwi\\source\\repos\\Arduino-Academy\\Arduino\\MainWindow.xaml",
+              "RelativeToolTip": "Arduino\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-27T05:53:56.978Z",
               "EditorCaption": ""
             }
           ]
