@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arduino")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7448e92d0264a4eb1c70f8042c2b856439c7d818")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22ba62232218b679d6aebf1fa9527a10dfa4324b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arduino")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arduino")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

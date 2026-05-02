@@ -43,22 +43,18 @@
                     </TreeViewItem>
                     VZOR NA MODULY -->
 
-                    <TreeViewItem Header="Modul 1: Úvod do Arduina" Foreground="{DynamicResource Text}" IsExpanded="True" FontFamily="Segoe UI" FontWeight="Bold">
+                    <TreeViewItem Header="Modul 1: Úvod do Arduina" Foreground="{DynamicResource Text}" IsExpanded="False" FontFamily="Segoe UI" FontWeight="Bold">
                         <TreeViewItem Header="1.0 Co je to Arduino?" Foreground="{DynamicResource Text}" Tag="1.0" FontWeight="Normal"/>
                         <TreeViewItem Header="1.1 Historie a využití Arduina" Foreground="{DynamicResource Text}"  Tag="1.1" FontWeight="Normal"/>
                         <TreeViewItem Header="1.2 Arduino desky" Foreground="{DynamicResource Text}" Tag="1.2" FontWeight="Normal"/>
                         <TreeViewItem Header="1.3 Arduino IDE" Foreground="{DynamicResource Text}" Tag="1.3" FontWeight="Normal"/>
                     </TreeViewItem>
 
-                    <!-- <TreeViewItem Header="Modul 2: Opakování elektrotechniky" IsExpanded="True" FontFamily="Segoe UI" FontWeight="Bold">
-                        <TreeViewItem Header="2.0 Napětí, proud a odpor" Tag="2.0" FontWeight="Normal"/>
-                        <TreeViewItem Header="2.1 Ohmův zákon" Tag="2.1" FontWeight="Normal"/>
-                        <TreeViewItem Header="2.2 Základní součástky" Tag="2.2" FontWeight="Normal"/>
+                    <TreeViewItem Header="Modul 2: Opakování elektrotechniky" Foreground="{DynamicResource Text}" IsExpanded="False" FontFamily="Segoe UI" FontWeight="Bold">
+                        <TreeViewItem Header="2.0 Napětí, proud a odpor" Foreground="{DynamicResource Text}" Tag="2.0" FontWeight="Normal"/>
+                        <TreeViewItem Header="2.1 Ohmův zákon" Foreground="{DynamicResource Text}"  Tag="2.1" FontWeight="Normal"/>
+                        <TreeViewItem Header="2.2 Základní součástky" Foreground="{DynamicResource Text}" Tag="2.2" FontWeight="Normal"/>
                     </TreeViewItem>
-
-                    <TreeViewItem Header="Modul 3: Programování" IsExpanded="True" FontFamily="Segoe UI" FontWeight="Bold">
-                        <TreeViewItem Header="3.0 Struktura programu" Tag="3.0" FontWeight="Normal"/>
-                    </TreeViewItem> -->
                 </TreeView>
             </DockPanel>
         </Border>
