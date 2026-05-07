@@ -181,6 +181,24 @@ namespace Arduino
 
                     "Ve světě elektrotechniky samozřejmě existuje mnoho dalších součástek (např: LCD displej), ale tyto součástky tvoří fundamentální základ běžných projektů s Arduinem, které se dělají ve škole."
                 ),
+                // MODUL 3
+                ["3.0"] =
+                (
+                    "3.0 UART",
+                    "UART (Universal Asynchronous Reciever Transmitter) je jednou z nejběžnějších metod sériové komunikace v elektronice a mikrokontrolérech.  " +
+                    "Jak název napovídá, jedná se o asynchronní komunikační protokol, který umožňuje dvěma zařízením vyměňovat si data bez nutnosti společného hodinového signálu. \n" +
+                    "UART se velmi často používá v deskách Arduino, počítačích, GPS modulech, Bluetooth/WiFi modulech a mnoha dalších zařízeních. \n\n" +
+                    "Komunikace UART probíhá pomocí dvou hlavních vodičů. Jeden vodič se používá pro data a nazývá se transmitter - TX (vysílání). Druhý vodič se používá pro příjem dat a nazývá se reciever - RX (příjem). \n" +
+                    "Komunikace mezi zařízeními musí být křížená. To znamená, že vysílač jednoho zařízení je připojen k přijímači druhého zařízení a naopak. Obě zařízení musí mít také společný uzemňovací vodič (GND). \n\n" +
+                    "UART je asynchronní komunikace. Zařízení nepoužívají samostatný hodinový signál k synchronizaci přenosu dat. Místo toho se obě zařízení musí předem dohodnout na stejné přenosové rychlosti. \n" +
+                    "Tato rychlost je známá jako přenosová rychlost (baud rate). Nejběžnější rychlosti jsou 9600, 57600 nebo 115200 bps. Pokud obě zařízení nejsou nastavena na stejnou rychlost, data budou přijata nesprávně. \n\n" +
+                    "Data se během přenosu pomocí UART odesílají bit po bitu. Každý přenášený znak má startovací bit, datové bity a jeden nebo více stop bitů. " +
+                    "Startovací bit se používá k signalizaci začátku přenosu a stop bit k signalizaci konce datového rámce. Někdy se do přenosu přidává další paritní bit pro kontrolu chyb. \n\n" +
+                    "Jednou z klíčových silných stránek UART komunikace je její jednoduchost. Proces implementace je poměrně přímočarý a většina mikrokontrolérů má v sobě zabudovaný hardware UART. " +
+                    "UART se nejlépe hodí pro komunikaci mezi dvěma zařízeními, například mezi zařízením Arduino a počítačem. UART se také často používá pro ladění aplikací pomocí sériového monitoru. \n\n" +
+                    "Hlavní nevýhodou UART komunikace je její neschopnost podporovat mnoho zařízení současně. UART je primárně navržen pro komunikaci mezi dvěma zařízeními. Další slabinou UART je jeho relativně nízká rychlost ve srovnání s jinými rychlejšími způsoby komunikace, jako jsou protokoly SPI nebo novější technologie. " +
+                    "UART komunikace se důrazně doporučuje pro jednoduché komunikační úlohy, textový přenos dat, ladění aplikací a komunikaci s moduly, u kterých není rychlost kritická."
+                ),
             };
         }
 

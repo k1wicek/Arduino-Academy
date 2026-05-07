@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Kiwi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Kiwi\\.nuget\\packages",
+      "C:\\Users\\lekien\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lekien\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

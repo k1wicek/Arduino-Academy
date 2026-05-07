@@ -55,6 +55,12 @@
                         <TreeViewItem Header="2.1 Ohmův zákon" Foreground="{DynamicResource Text}"  Tag="2.1" FontWeight="Normal"/>
                         <TreeViewItem Header="2.2 Základní součástky" Foreground="{DynamicResource Text}" Tag="2.2" FontWeight="Normal"/>
                     </TreeViewItem>
+
+                    <TreeViewItem Header="Modul 3: Komunikační protokoly" Foreground="{DynamicResource Text}" IsExpanded="False" FontFamily="Segoe UI" FontWeight="Bold">
+                        <TreeViewItem Header="3.0 UART" Foreground="{DynamicResource Text}" Tag="3.0" FontWeight="Normal"/>
+                        <TreeViewItem Header="3.1 SPI" Foreground="{DynamicResource Text}"  Tag="3.1" FontWeight="Normal"/>
+                        <TreeViewItem Header="3.2 I2C" Foreground="{DynamicResource Text}" Tag="3.2" FontWeight="Normal"/>
+                    </TreeViewItem>
                 </TreeView>
             </DockPanel>
         </Border>
