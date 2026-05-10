@@ -13,20 +13,20 @@ namespace Arduino
             new Dictionary<string, Article>();
 
         private bool LightMode = true;
-
+        private bool English = false;
         public MainWindow()
         {
             InitializeComponent();
-            LoadArticles();
+            LoadArticles("Obsah.json");
         }
 
-        private void LoadArticles()
+        private void LoadArticles(string fileName)
         {
-            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Obsah.json");
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
 
             if (!File.Exists(path))
             {
-                MessageBox.Show($"Obsah.json nebyl nalezen:\n{path}");
+                MessageBox.Show($"{fileName} nebyl nalezen:\n{path}");
                 return;
             }
 
@@ -110,6 +110,60 @@ namespace Arduino
                 button.Content = "⏾";
 
                 LightMode = true;
+            }
+        }
+
+        private void LanguageButton_Click(object sender, RoutedEventArgs e)
+        {
+            var button = (Button)sender;
+
+            if (!English)
+            {
+                LoadArticles("ObsahEN.json");
+
+                button.Content = "EN";
+                LanguageTextBox.Text = "Change language to CZ";
+
+                ArticleTitle.Text = "Select a course";
+                ArticleContent.Text = "Select a course from the modules.";
+
+                Module1.Header = "Module 1: Introduction to Arduino";
+                Item10.Header = "1.0 What is Arduino?";
+                Item11.Header = "1.1 History and Uses of Arduino";
+                Item12.Header = "1.2 Arduino Boards";
+
+                Module2.Header = "Module 2: Electronics Revision";
+                Item20.Header = "2.0 Voltage, Current and Resistance";
+                Item21.Header = "2.1 Ohm's Law";
+                Item22.Header = "2.2 Basic Components";
+
+                Module3.Header = "Module 3: Communication Protocols";
+
+                English = true;
+            }
+            else
+            {
+                LoadArticles("Obsah.json");
+
+                button.Content = "CZ";
+                LanguageTextBox.Text = "Změnit jazyk na EN";
+
+                ArticleTitle.Text = "Vyberte si kurz";
+                ArticleContent.Text = "Vyberte si kurz z modulů a začněte.";
+
+                Module1.Header = "Modul 1: Úvod do Arduina";
+                Item10.Header = "1.0 Co je to Arduino?";
+                Item11.Header = "1.1 Historie a využití Arduina";
+                Item12.Header = "1.2 Arduino desky";
+
+                Module2.Header = "Modul 2: Opakování elektrotechniky";
+                Item20.Header = "2.0 Napětí, proud a odpor";
+                Item21.Header = "2.1 Ohmův zákon";
+                Item22.Header = "2.2 Základní součástky";
+
+                Module3.Header = "Modul 3: Komunikační protokoly";
+
+                English = false;
             }
         }
     }
