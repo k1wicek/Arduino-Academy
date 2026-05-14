@@ -139,6 +139,13 @@ namespace Arduino
 
                 Module3.Header = "Module 3: Communication Protocols";
 
+                Module4.Header = "Module 4: Programming in Arduino";
+                Item40.Header = "4.0 The Structure of a Sketch";
+                Item41.Header = "4.1 Inputs and Outputs";
+                Item42.Header = "4.2 Data Types";
+                Item43.Header = "4.3 Cycles and Conditions";
+                Item44.Header = "4.4 Functions";
+
                 English = true;
             }
             else
@@ -162,6 +169,13 @@ namespace Arduino
                 Item22.Header = "2.2 Základní součástky";
 
                 Module3.Header = "Modul 3: Komunikační protokoly";
+
+                Module4.Header = "Modul 4: Programování v Arduino";
+                Item40.Header = "4.0 Struktura skicy";
+                Item41.Header = "4.1 Vstupy a výstupy";
+                Item42.Header = "4.2 Datové typy";
+                Item43.Header = "4.3 Cykly a podmínky";
+                Item44.Header = "4.4 Funkce";
 
                 English = false;
             }

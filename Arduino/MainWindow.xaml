@@ -40,7 +40,7 @@
                             </Button.ToolTip>
                         </Button>
 
-                        <Button x:Name="LanguageButton" Background="{DynamicResource Foreground}" Content="🇨🇿" Foreground="{DynamicResource Text}" Width="25" Height="25" Margin="0,5,0,0" Click="LanguageButton_Click">
+                        <Button x:Name="LanguageButton" Background="{DynamicResource Foreground}" Content="CZ" Foreground="{DynamicResource Text}" Width="25" Height="25" Margin="0,5,0,0" Click="LanguageButton_Click">
                             <Button.ToolTip>
                                 <TextBlock x:Name="LanguageTextBox" Text="Změnit jazyk na EN" FontWeight="Bold"/>
                             </Button.ToolTip>
@@ -68,6 +68,14 @@
                         <TreeViewItem x:Name="Item30" Header="3.0 UART" Foreground="{DynamicResource Text}" Tag="3.0" FontWeight="Normal"/>
                         <TreeViewItem x:Name="Item31" Header="3.1 SPI" Foreground="{DynamicResource Text}" Tag="3.1" FontWeight="Normal"/>
                         <TreeViewItem x:Name="Item32" Header="3.2 I2C" Foreground="{DynamicResource Text}" Tag="3.2" FontWeight="Normal"/>
+                    </TreeViewItem>
+
+                    <TreeViewItem x:Name="Module4" Header="Modul 4: Programování v Arduino" Foreground="{DynamicResource Text}" IsExpanded="False" FontFamily="Segoe UI" FontWeight="Bold">
+                        <TreeViewItem x:Name="Item40" Header="4.0 Skica" Foreground="{DynamicResource Text}" Tag="4.0" FontWeight="Normal"/>
+                        <TreeViewItem x:Name="Item41" Header="4.1 Vstupy a výstupy" Foreground="{DynamicResource Text}" Tag="4.1" FontWeight="Normal"/>
+                        <TreeViewItem x:Name="Item42" Header="4.2 Datové typy" Foreground="{DynamicResource Text}" Tag="4.2" FontWeight="Normal"/>
+                        <TreeViewItem x:Name="Item43" Header="4.3 Cykly a podmínky" Foreground="{DynamicResource Text}" Tag="4.3" FontWeight="Normal"/>
+                        <TreeViewItem x:Name="Item44" Header="4.4 Funkce" Foreground="{DynamicResource Text}" Tag="4.4" FontWeight="Normal"/>
                     </TreeViewItem>
 
                 </TreeView>
